@@ -1,0 +1,24 @@
+:root {
+	--body-bg-color: #fff;
+	--body-home-color: #f3f3f7;
+	--body-button-color: #41b64d;
+	--body-button1-color: #2b3844;
+	--body-text-color: #2b3844;
+	--body-text1-color: #41b64d;
+	--body-text2-color: #9a9a9a;
+	--body-input-color: #acb6be;
+	--body-article-color: rgba(65, 182, 77, 0.25);
+	--body-background-img: url(../../imges/owa-signIn-img.png);
+}
+body.dark {
+	--body-bg-color: #2b3844;
+	--body-home-color: #202c36;
+	--body-button-color: #f27851;
+	--body-button1-color: #fff;
+	--body-text-color: #fff;
+	--body-text1-color: #f27851;
+	--body-text2-color: #fff;
+	--body-input-color: #acb6be;
+	--body-article-color: rgba(242, 120, 81, 0.5);
+	--body-background-img: url(../../imges/owa-sign-dark.png);
+}

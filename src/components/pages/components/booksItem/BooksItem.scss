@@ -1,0 +1,81 @@
+.books{
+	width: 240px;
+	height: 460px;
+	background-color:var(--body-bg-color);
+	border-radius: 10px;
+	padding: 16px 24px;
+	position: relative;
+	.books-img{
+		width: 190px;
+		height: 260px;
+	}
+	h2{
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 128.52%;
+		color: var(--body-text-color);
+		margin-top: 12px;
+	}
+	P{
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 128.52%;
+		color: var(--body-text1-color);
+		margin-top: 5px;
+	}
+	.like{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		user-select: none;
+		svg{
+			cursor: pointer;
+		}
+		svg{	
+			cursor: pointer;
+			path{
+				stroke: var(--body-text1-color);
+			}
+		}
+		h4{
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 128.52%;
+			color: var(--body-text-color);
+			margin-top: 5px;
+		}
+	}
+	span{
+		display: flex;
+		position: absolute;
+		column-gap:40px;
+		justify-content: space-between;
+		margin-top: 30px;
+		bottom: 16px;
+		.btn-info{
+			background: var(--body-button1-color);
+			border-radius: 5px;
+			padding: 5px 25px;
+			font-weight: 500;
+			font-size: 12px;
+			line-height: 16px;
+			text-align: center;
+			color: var(--body-text1-color);
+			border: none;
+			cursor: pointer;
+			text-decoration: none;
+		}
+		.btn-read{
+			background: var(--body-button-color);
+			border-radius: 5px;
+			padding: 5px 25px;
+			font-weight: 500;
+			font-size: 12px;
+			line-height: 16px;
+			text-align: center;
+			color: #F8FAFC;
+			border: none;
+			cursor: pointer;
+		}
+	}
+}

@@ -1,0 +1,39 @@
+.navbar{
+	width: 342px;
+	height: 100%;
+	background: var(--body-bg-color);
+	padding: 50px 27px;
+	h3{
+		font-weight: 600;
+		font-size: 28px;
+		line-height: 35px;
+		color: var(--body-text-color);
+		margin-bottom: 10px;
+	}
+	article{
+		width: 288px;
+		height: 120px;
+		background: var(--body-article-color);
+		border-radius: 10px;
+		padding: 10px 14px;
+		display: flex;
+		column-gap: 25px;
+		margin-top: 18px;
+		h3{
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 128.52%;
+			color: var(--body-text-color);
+		}
+		p{
+			font-weight: 400;
+			font-size: 15px;
+			line-height: 128.52%;
+			color: var(--body-text-color);
+			margin: 12px 0;
+		}
+		img{
+			cursor: pointer;
+		}
+	}
+}

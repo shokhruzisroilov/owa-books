@@ -1,0 +1,21 @@
+main{
+	width: 100%;
+	height: max-content;
+	.main__content{
+		display: flex;
+		justify-content: space-between;
+		.main__home{
+			width: 100%;
+			min-height: 1000px;
+			padding: 40px;
+			background: var(--body-home-color);
+		}
+		.books__items{
+			margin-top: 40px;
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			gap:24px;
+		}
+	}
+}
